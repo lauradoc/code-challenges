@@ -62,4 +62,4 @@ def decode(s):
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
-        print("\n*** ALL TESTS PASSED; 0G1ar0e1ba0t2ab! ***\n")
+        print("\n*** ALL TESTS PASSED ***\n")
