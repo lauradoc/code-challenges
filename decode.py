@@ -59,7 +59,7 @@ def decode(s):
     # return word
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':    
     import doctest
-    if doctest.testmod().failed == 0:
-        print("\n*** ALL TESTS PASSED ***\n")
+    if doctest.testmod().failed == 0:        
+        print('\n✨ ALL TESTS PASSED!\n')
