@@ -29,3 +29,39 @@ if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:        
         print('\n✨ ALL TESTS PASSED!\n')
+
+# function getDifferentNumber(arr):
+#     n = arr.length
+
+#     set = new Set() # the Set interface is language dependent
+#     for i from 0 to n-1:
+#         set.insert([arr[i]]) # build the set
+
+#     for i from 0 to n - 1:
+#         if (set.find(i) == false):
+#             return i
+
+#     # we got here since every number from 0 to n-1 is in arr.
+#     # By definition then, n isn’t in arr. Otherwise, the size of arr
+#     # would have been n+1 and not n.
+#     return n
+
+# function getDifferentNumber(arr):
+#     n = arr.length
+#     temp = 0
+
+#     # put each number in its corresponding index, kicking out
+#     # the original number, until the target index is out of range.
+#     for i from 0 to n-1:
+#         temp = arr[i]
+#         while (temp < n AND arr[temp] != temp):
+#             swap(temp, arr[temp])
+
+#     for i from 0 to n - 1:
+#         if (arr[i] != i):
+#             return i  # i isn’t in arr, hence we can return it
+
+#     # we got here since every number from 0 to n-1 is in arr.
+#     # By definition then, n isn’t in arr. Otherwise, the size of arr
+#     # would have been n+1 and not n.
+#     return n
