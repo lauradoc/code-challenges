@@ -1,5 +1,6 @@
 """
-Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
+Given two non-negative integers num1 and num2 represented as string,
+return the sum of num1 and num2.
 
 Note:
 
@@ -9,8 +10,9 @@ Both num1 and num2 does not contain any leading zero.
 You must not use any built-in BigInteger library or convert the inputs to integer directly.
 """
 
+
 def addStrings(num1, num2):
-        
-        sum_num = int(num1) + int(num2)
-        
-        return str(sum_num)
+
+    sum_num = int(num1) + int(num2)
+
+    return str(sum_num)
